@@ -1,0 +1,27 @@
+{
+	"name": "Generic Logo",
+
+	"description": "A generic landing page for web projects.",
+
+	"tags": [
+        "Website", "Landing Page"
+    ],
+   
+    "templates": {
+        "page": {
+            "Home": "index.html"
+        },
+
+        "default_page": "Home"
+    },
+
+    "poster": "poster.jpg",
+
+    "config": {
+	    "editor": {
+            "editable": [ "[role=main]" ],
+            "blocks": [ ".row", ".section", ".container", ".container-sm", "container-lg" ],
+            "inline_blocks": [ ".col-40", ".col-60", ".col-30" ]
+        }
+    }
+}
